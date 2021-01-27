@@ -1,0 +1,23 @@
+p {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-left: .5rem;
+}
+button {
+  $color: #eee;
+  flex-basis: 20%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background: $color;
+  transition: .3s all;
+  cursor: pointer;
+  padding: .5rem;
+  margin: .3rem;
+
+  &:hover {
+    background: darken($color, 20%);
+  }
+}

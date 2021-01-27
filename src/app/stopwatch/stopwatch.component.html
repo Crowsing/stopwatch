@@ -1,0 +1,13 @@
+<div>
+  <p class="hours">{{ stopwatchService.timeInfo.hours }}</p>
+  <p>:</p>
+  <p class="minutes">{{ stopwatchService.timeInfo.minutes }}</p>
+  <p>:</p>
+  <p class="seconds">{{ stopwatchService.timeInfo.seconds }}</p>
+</div>
+
+<div>
+  <button (click)="startOrStop()">Start/stop</button>
+  <button (dblclick)="wait()">Wait</button>
+  <button (click)="reset()">Reset</button>
+</div>
